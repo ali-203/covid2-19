@@ -3,6 +3,12 @@ import axios from "axios";
 
 
 class Details extends React.Component {
+    state = {
+        countries : [],
+        global: [],
+        currentDate: null,
+        loading: true
+    }
 
 async componentDidMount(){
    const res = await axios.get("https://api.covid19api.com/summary");
