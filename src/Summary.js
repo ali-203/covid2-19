@@ -16,7 +16,11 @@ class Summary extends React.Component {
             <h4>{new Date(currentDate).toDateString()}</h4>
 
             </div>
-            
+            <div className="NewDeaths">
+                <h3>NewDeaths</h3>
+                <h1>{summary.NewDeaths}</h1>
+                <h4>{new Date(currentDate).toDateString()}</h4>
+            </div>
 
             </div>
         )
