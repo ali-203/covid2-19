@@ -1,7 +1,13 @@
 .App {
   text-align: center;
 }
-body{
+body {
   background: #eee;
   font-family: sans-serif;
+}
+.row {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
 }
