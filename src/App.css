@@ -11,3 +11,13 @@ body {
   margin: 0 auto;
   background: #fff;
 }
+.NewConfirmed,
+.TotalConfirmed,
+.NewDeaths,
+.TotalDeath,
+.TotalRecovered {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+
+}
