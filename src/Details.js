@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import summary from "./Summary";
+import Summary from "./Summary";
 
 
 class Details extends React.Component {
@@ -29,7 +29,7 @@ render(){
     }
     return(
         <div>
-        <summary summary = {this.state.global} currentDate = {this.state.currentDate}/>
+        <Summary summary = {this.state.global} currentDate = {this.state.currentDate}/>
 
         </div>
     )
