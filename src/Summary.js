@@ -13,13 +13,23 @@ class Summary extends React.Component {
             <div className="TotalConfirmed">
             <h4>Total Confirmed</h4>
             <h1>{summary.TotalConfirmed}</h1>
-            <h4>{new Date(currentDate).toDateString()}</h4>
+            <h4>{new Date (currentDate).toDateString()}</h4>
 
             </div>
             <div className="NewDeaths">
                 <h3>NewDeaths</h3>
                 <h1>{summary.NewDeaths}</h1>
                 <h4>{new Date(currentDate).toDateString()}</h4>
+            </div>
+            <div className="TotalDeaths">
+                <h3>TotalDeaths</h3>
+                <h1>{summary.TotalDeaths}</h1>
+                <h4>{ new Date(currentDate).toDateString()}</h4>
+            </div>
+            <div className="TotalRecovered">
+                <h3>Total Recovered</h3>
+                <h1>{summary.TotalRecovered}</h1>
+                <h4>{new Date(currentDate).toDateString}</h4>
             </div>
 
             </div>
