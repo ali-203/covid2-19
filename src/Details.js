@@ -13,11 +13,19 @@ class Details extends React.Component {
 async componentDidMount(){
    const res = await axios.get("https://api.covid19api.com/summary");
    console.log(res);
+   this.setState({countries: res.data.Countries });
+   this.setState({global: res.data.Global});
+   this.setState({currentDate: res.data.Data});
+   this.setState({loading: false});
+
 }
 
 
 
 render(){
+    if(this.state.loading){
+        return <h1>Loading...</h1>
+    }
     return(
         <div>
 
