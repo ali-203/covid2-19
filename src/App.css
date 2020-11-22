@@ -38,5 +38,14 @@ body {
 .TotalRecovered{
   color: green;
 }
-
-
+table {
+  border-collapse: separate;
+  width: 80%;
+  margin: 0 auto;
+}
+table thead tr {
+  background: #fff;
+}
+table thead tr th {
+  padding: 12px;
+}
