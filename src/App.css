@@ -30,7 +30,7 @@ body {
   color: blueviolet;
 }
 .NewDeaths{
-  color: lightcoral;
+  color: black;
 }
 .TotalDeaths{
   color: red;
@@ -62,7 +62,4 @@ table tbody tr td {
   text-align: left;
 
 }
-.th {
-  
 
-}
