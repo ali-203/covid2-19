@@ -1,9 +1,17 @@
 import React from "react";
   
 
-class countries extends React.Component {
+class Countries extends React.Component {
      render(){
-         return
+         const {countries} = this.props;
+         return(
+             <tr>
+                 <td>{countries.Country} </td>
+                 <td>{countries.NewConfirmed} </td>
+                 <td>{countries.TotalRecovered} </td>
+                 <td>{countries.TotalDeaths} </td>
+             </tr>
+         )
      }
 }
-export default countries;
+export default Countries;

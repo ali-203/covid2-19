@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Summary from "./Summary";
+import Countries from "./Countries";
 
 
 class Details extends React.Component {
@@ -41,7 +42,7 @@ render(){
             </thead>
             <tbody>
                 {this.state.countries.map(country => (
-                    <Countries /> 
+                    <Countries countries = {country} key={country.Country} /> 
 
                 ))}
             </tbody>
