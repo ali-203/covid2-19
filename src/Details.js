@@ -33,12 +33,16 @@ render(){
         <Summary summary = {this.state.global} currentDate = {this.state.currentDate}/>
         <table>
             <thead>
+            
                 <tr>
+                
                     <th>Country</th>
                     <th>New Confirmed</th>
                     <th>Total Recovered</th>
                     <th>Total Deaths</th>
+                    
                 </tr>
+                
             </thead>
             <tbody>
                 {this.state.countries.map(country => (
@@ -47,8 +51,8 @@ render(){
                 ))}
             </tbody>
         </table>
-
         </div>
+        
     )
 }
 
