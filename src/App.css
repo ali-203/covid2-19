@@ -42,10 +42,17 @@ table {
   border-collapse: separate;
   width: 80%;
   margin: 0 auto;
+  border-spacing: 0 12px;
 }
 table thead tr {
   background: #fff;
 }
 table thead tr th {
   padding: 12px;
+  text-align: left;
+}
+table tbody tr td {
+  padding: 12px;
+  text-align: left;
+
 }
