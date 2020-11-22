@@ -10,14 +10,33 @@ body {
   width: 80%;
   margin: 0 auto;
   background: #fff;
+  border-bottom: 4px solid orangered;
 }
 .NewConfirmed,
 .TotalConfirmed,
 .NewDeaths,
-.TotalDeath,
+.TotalDeaths,
 .TotalRecovered {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
 
+
 }
+.NewConfirmed {
+  color: orangered;
+}
+.TotalConfirmed {
+  color: blueviolet;
+}
+.NewDeaths{
+  color: lightcoral;
+}
+.TotalDeaths{
+  color: red;
+}
+.TotalRecovered{
+  color: green;
+}
+
+

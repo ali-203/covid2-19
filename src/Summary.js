@@ -29,7 +29,7 @@ class Summary extends React.Component {
             <div className="TotalRecovered">
                 <h3>Total Recovered</h3>
                 <h1>{summary.TotalRecovered}</h1>
-                <h4>{new Date(currentDate).toDateString}</h4>
+                <h4>{new Date(currentDate).toDateString()}</h4>
             </div>
 
             </div>
