@@ -10,7 +10,7 @@ body {
   width: 80%;
   margin: 0 auto;
   background: #fff;
-  border-bottom: 4px solid orangered;
+  border-bottom: 4px solid black;
 }
 .NewConfirmed,
 .TotalConfirmed,
@@ -50,6 +50,7 @@ table thead tr {
 table thead tr th {
   padding: 18px 12px;
   text-align: left;
+  
 }
 table tbody tr {
   background: #fff;
