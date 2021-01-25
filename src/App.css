@@ -24,7 +24,7 @@ body {
 
 }
 .NewConfirmed {
-  color: orangered;
+  color: rgb(184, 91, 58);
 }
 .TotalConfirmed {
   color: blueviolet;
@@ -33,7 +33,7 @@ body {
   color: black;
 }
 .TotalDeaths{
-  color: red;
+  color: rgb(202, 62, 62);
 }
 .TotalRecovered{
   color: green;
