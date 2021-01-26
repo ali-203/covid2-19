@@ -1,17 +1,26 @@
 .App {
   text-align: center;
 }
+@media only screen and (min-width: 400px) {
+  
 body {
   background: #eee;
   font-family: sans-serif;
 }
+}
+
+ 
+  
 .row {
+  
   display: flex;
   width: 80%;
   margin: 0 auto;
   background: #fff;
   border-bottom: 4px solid black;
 }
+
+
 .NewConfirmed,
 .TotalConfirmed,
 .NewDeaths,
@@ -62,6 +71,7 @@ table tbody tr td {
   text-align: left;
 
 }
+
 
 
 
