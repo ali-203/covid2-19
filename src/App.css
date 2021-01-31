@@ -4,7 +4,7 @@
 @media only screen and (min-width: 400px) {
   
 body {
-  background: #eee;
+  background: rgba(168, 161, 161, 0);
   font-family: sans-serif;
 }
 }
